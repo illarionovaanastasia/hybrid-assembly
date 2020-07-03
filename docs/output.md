@@ -9,8 +9,7 @@ and processes data using some of the following steps, depending on which assembl
 
 * [FastQC](#fastqc) - short read quality control
 * [NanoPlot](#nanoplot) - long read quality control
-* [SPAdes](#spades) - hybrid assembly
-* [Canu](#canu) - long read assembly
+* [FLYE](#flye) - long read assembly
 * [minimap2](#minimap2) - mapping of short reads to assembly
 * [pilon](#pilon) - Polishing of long read assembly using mapped short reads
 * [QUAST](#quast) - Assembly statistics and quality
@@ -34,16 +33,10 @@ long reads.
 
 **Output directory: `results/nanoqc`**
 
-## SPAdes
-[SPAdes](http://cab.spbu.ru/software/spades/) is a versatile de novo genome assembly tool that allows to use both
-short and long reads for assembly.
+## FLYE
+[FLYE](https://github.com/fenderglass/Flye) is a tool for assembly of long error-prone reads using repeat graphs.
 
-**Output directory: `results/spades_results`**
-
-## Canu
-[Canu](https://github.com/marbl/canu) is a assembly tool specifically developed for long read technologies.
-
-**Output directory: `results/canu`**
+**Output directory: `results/flye`**
 
 ## minimap2
 [minimap2](https://github.com/lh3/minimap2) is a versatile mapping tool that can map short and long reads.
