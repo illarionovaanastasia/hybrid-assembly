@@ -18,9 +18,8 @@ The current workflow consists of:
 2. Assembly
 3. Assesment of assembly quality
 
-Three different assemblers are currently implemented:
-* [SPAdes](http://cab.spbu.ru/software/spades/)
-* [Canu](https://github.com/marbl/canu)
+Two different assemblers are currently implemented:
+* [FLYE](https://github.com/fenderglass/Flye)
 * [MaSuRCA](https://github.com/alekseyzimin/masurca)
 
 
